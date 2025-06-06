@@ -5,7 +5,7 @@
 }
 h1{
     color: rgb(230, 16, 45);
-    font-size: 30px;
+    font-size: 40px;
     margin: auto;
     text-align: center;
 }
@@ -15,11 +15,15 @@ body{
 
 main{
     background-color: rgb(254, 240, 255) ;
-    width: 500px;
+    width: 700px;
     margin: auto;
     padding: 10px;
-    box-shadow: 3px 3px 5px rgb(85, 82, 82);
+    box-shadow: 3px 3px 5px rgb(129, 127, 127);
 }
 img.lado{
     float: right;
+}
+
+p{
+    font-size: 18px;
 }

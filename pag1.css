@@ -1,5 +1,5 @@
 *{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
 
 }
@@ -20,10 +20,16 @@ main{
     padding: 10px;
     box-shadow: 3px 3px 5px rgb(129, 127, 127);
 }
-img.lado{
-    float: right;
-}
-
 p{
-    font-size: 18px;
+    text-align: center;
+    font-size: 19px;
+}
+a{
+    margin: 260px;
+}
+button{
+    border-radius: 1000px;
+    border-style: dashed;
+    font-size: 25px;
+    
 }

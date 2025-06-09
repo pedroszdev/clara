@@ -1,11 +1,12 @@
 *{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    
 }
 h1{
     color: #D5B3E8;
     font-size: 40px;
     margin: auto;
+    text-align: center;
 }
 body{
     background-color: #f1e5fc;
@@ -21,6 +22,7 @@ main{
 p{
     font-size: 19px;
     color: #acabab;
+    text-align: center;
 }
 
 strong{
@@ -28,18 +30,39 @@ strong{
 }
 button{
     border-radius: 5px;
-    color: #acabab;
+    color: #a09e9e;
     outline: none;
-    border: transparent;
+    border: 1px solid #D5B3E8;
     cursor: pointer;
     font-size: 16px;
+    background-color: transparent;
 }
-.menu{
-        text-align: center;
+h2{
+    color: #a09e9e;
     }
 
-@media (max-width: 768px){
+input[type="text"], input[type="date"]{
+    width: 90%;
+    padding: 0.6rem;
+    border-radius: 5px;
+    border: 2px solid #D5B3E8;
+    outline: none;
+    background-color: transparent;
+}
 
+input[type="radio"], input[type="checkbox"] {
+    accent-color: #D5B3E8;
+}
+
+textarea{
+    border-radius: 5px;
+    border: 2px solid #D5B3E8;
+    background-color: transparent;
+
+}
+
+@media (max-width: 768px){
+    
     main{
         background-color: #FFF9F9 ;
         width: 350px;

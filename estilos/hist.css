@@ -20,37 +20,13 @@ main{
     box-shadow: 3px 3px 5px rgb(129, 127, 127);
 }
 p{
-    font-size: 20px;
-    color: #acabab;
-    text-align: center;
-}
-
-dt{
-    text-align: center;
     font-size: 19px;
-    padding: .5rem;
-    list-style-type: disc;
-    color: #949393;
+    color: #acabab;
 }
 
-dt li::marker{
-    color: #D5B3E8;
-}
 
-li{
-    padding: 0.2rem;
-    color: #949393;
-}
+@media (max-width: 768px){
 
-.voltar{
-    text-align: left;
-    font-size: 13px;
-}
-img{
-    width: 40px;
-}
-@media (max-width:768px) {
-    
     main{
         background-color: #FFF9F9 ;
         width: 350px;
@@ -58,4 +34,5 @@ img{
         padding: 10px;
         box-shadow: 3px 3px 5px rgb(129, 127, 127);
     }
-}
+    
+} 

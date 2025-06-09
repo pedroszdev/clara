@@ -3,9 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/clara2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/quiz.css">
     <title>Site da Clara</title>
 </head>
 <body>
-    
+    <main>
+        <header>
+            <h1>Quiz do Amor!</h1>
+        </header>
+        <p>Será que você conhece tudo sobre nosso relacionamento?</p>
+        <section>
+            <h2>Pergunta 1: Qual foi o primeiro lugar onde a gente saiu juntos?</h2>
+            <form>
+                <input type="radio" value="Madero" id="p1a" name="pergunta1">
+                <label for="p1a">Madero</label> <br>
+                <input type="radio" value="Praia" id="p1b" name="pergunta1">
+                <label for="p1b">Praia</label> <br>
+                <input type="radio" value="Cinema" id="p1c" name="pergunta1">
+                <label for="p1c">Cinema</label> <br>
+                <input type="radio" value="Show" id="p1d" name="pergunta1">
+                <label for="p1d">Show</label> <br>
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 2: O que eu mais amo em você?</h2>
+            <form>
+                <input type="text" id="p2" name="pergunta2" placeholder="Digite aqui…">
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 3: Qual foi o lugar mais engraçado onde já fomos?</h2>
+            <form>
+                <input type="text" id="p3" name="pergunta3" placeholder="Digite aqui…">
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 4: Qual comida eu não gostava e aprendi a gostar por sua causa?</h2>
+            <form>
+                <input type="radio" value="Tomate" id="p4a" name="pergunta4">
+                <label for="p4a">Tomate</label> <br>
+                <input type="radio" value="Cebola" id="p4b" name="pergunta4">
+                <label for="p4b">Cebola</label> <br>
+                <input type="radio" value="Couve Flor" id="p4c" name="pergunta4">
+                <label for="p4c">Couve Flor</label> <br>
+                <input type="radio" value="Pizza" id="p4d" name="pergunta4">
+                <label for="p4d">Pizza</label> <br>
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 5: O que você sente quando está comigo?</h2>
+            <form>
+                <input type="checkbox" value="Paz" id="p5a" name="pergunta5">
+                <label for="p5a">Paz</label> <br>
+                <input type="checkbox" value="Infelicidade" id="p5b" name="pergunta5">
+                <label for="p5b">Infelicidade</label> <br>
+                <input type="checkbox" value="Borboletas no estômago" id="p5c" name="pergunta5">
+                <label for="p5c">Borboletas no estômago</label> <br>
+                <input type="checkbox" value="Vontade de te matar" id="p5d" name="pergunta5">
+                <label for="p5d">Vontade de te matar</label> <br>
+                <input type="checkbox" value="Amor" id="p5e" name="pergunta5">
+                <label for="p5e">Amor</label> <br>
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 6: Quando foi nosso primeiro beijo?</h2>
+            <form>
+                <input type="date" id="p6" name="pergunta6">
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 7: O que você faz ter certeza que eu sou “a pessoa”?</h2>
+            <form>
+                <input type="text" id="p7" name="pergunta7" placeholder="Digite aqui...">
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 8: Qual é a nossa foto junto que eu mais gosto?</h2>
+            <input type="file" id="p8" id="pergunta8">
+        </section>
+        <section>
+            <h2>Pergunta 9: Qual hábito meu você mais ama?</h2>
+            <input type="text" id="p9" name="pergunta9" placeholder="Digite aqui…">
+        </section>
+        <section>
+            <h2>Pergunta 10: Onde você se imagina com a gente daqui a 5 anos?</h2>
+            <textarea name="pergunta10" id="p10" placeholder="Escreva aqui..." rows="5" cols="50"></textarea>
+        </section>
+        <section>
+            <a href="pagquiz2.html"><button onclick="alert('Quiz enviado')">Clique aqui para enviar o quiz.</button></a>
+        </section>
+    </main>
 </body>
 </html>

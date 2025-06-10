@@ -11,13 +11,19 @@ h1{
 body{
     background-color: #f1e5fc;
 }
-
+footer {
+  text-align: center;
+  margin: 4rem 0 2rem;
+  color: #aaa;
+  font-size: 1rem;
+}
 main{
     background-color: #FFF9F9 ;
     width: 700px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgb(129, 127, 127);
+    border-radius: 15px;
 }
 p{
     font-size: 19px;

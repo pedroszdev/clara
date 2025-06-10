@@ -1,38 +1,105 @@
-*{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+body {
+  background-color: #f1e5fc;
+  color: #4a4a4a;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
-}
 h1{
-    color: #D5B3E8;
-    font-size: 40px;
-    margin: auto;
-    text-align: center;
+  color: #D5B3E8;
+  font-size: 40px;
+  margin: auto;
+  text-align: center;
 }
-body{
-    background-color: #f1e5fc;
+
+header{
+  padding: 40px;
+  text-align: center;
+  color: #acabab;
 }
 
 main{
+  background-color: #FFF9F9 ;
+  width: 700px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+
+.timeline {
+  position: relative;
+  padding-left: 40px;
+  border-left: 4px solid #fcbad3;
+}
+
+.timeline-event {
+  margin-bottom: 3rem;
+  position: relative;
+  opacity: 0;
+  animation: fadeUp 1s forwards;
+}
+
+.timeline-event:nth-child(1) { animation-delay: 0.3s; }
+.timeline-event:nth-child(2) { animation-delay: 0.6s; }
+.timeline-event:nth-child(3) { animation-delay: 0.9s; }
+.timeline-event:nth-child(4) { animation-delay: 1.2s; }
+
+
+.timeline-event h3 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #e75480;
+}
+
+.timeline-event p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #acabab;
+}
+
+footer {
+  text-align: center;
+  margin: 4rem 0 2rem;
+  color: #aaa;
+  font-size: 1rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeUp {
+  to { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateY(40px); }
+}
+
+img{
+  width: 300px;
+  border-radius: 10px;
+}
+
+.beijo{
+  width: 500px;
+}
+.voltar{
+  width: 60px;
+}
+@media (max-width: 768px){
+  main{
     background-color: #FFF9F9 ;
-    width: 700px;
+    width: 350px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgb(129, 127, 127);
+  } 
+  .beijo{
+  width: 300px;
 }
-p{
-    font-size: 19px;
-    color: #acabab;
 }
-
-
-@media (max-width: 768px){
-
-    main{
-        background-color: #FFF9F9 ;
-        width: 350px;
-        margin: auto;
-        padding: 10px;
-        box-shadow: 3px 3px 5px rgb(129, 127, 127);
-    }
-    
-} 
